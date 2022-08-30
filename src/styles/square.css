@@ -1,0 +1,15 @@
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border: solid;
+    border-color: burlywood;
+    font-size: xxx-large;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    
+   
+}

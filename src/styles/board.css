@@ -1,0 +1,20 @@
+.board{
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    
+}
+
+.status{
+    width: 200px;
+    height: 40px;
+    font-size: x-large;
+    font-weight: 500;
+    margin: auto;
+    background-color: rgb(3, 133, 138);
+    color: aliceblue;
+    padding: auto;
+
+}
