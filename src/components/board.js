@@ -24,12 +24,12 @@ export default function Board() {
     const handleClick = (i) => {
         const allSquare = squareValue.slice();
 
-        if (allSquare[i] === null) {
+        if (allSquare[i] === null && !winner) {
             allSquare[i] = player ? "X" : "O";
             setSquareValue(allSquare);
             setPlayer(!player);
 
-        } else {
+        } else if(allSquare[i] !== null){
             alert("already full :)")
         }
 
