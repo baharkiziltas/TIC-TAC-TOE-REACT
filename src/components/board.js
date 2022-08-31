@@ -9,11 +9,13 @@ export default function Board() {
     const [player, setPlayer] = useState(true);
     const winner = winning(squareValue);
     let status;
-
     
+
+
     if (winner) {
         status = "Winner :" + " " + winner;
-    } else {
+    }
+     else {
         status = "Player : " + (player ? "X" : "O");
     }
 
@@ -29,11 +31,11 @@ export default function Board() {
             setSquareValue(allSquare);
             setPlayer(!player);
 
-        } else if(allSquare[i] !== null){
+        }
+         else if (allSquare[i] !== null) {
             alert("already full :)")
         }
-
-
+        
     }
 
     function winning(allSquare) {
@@ -57,8 +59,6 @@ export default function Board() {
         }
         return null;
     }
-
-
 
     return (
         <>
